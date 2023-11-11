@@ -1,0 +1,81 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 4, 2023, 1:16:48 AM
+    Author     : tuna
+*/
+
+:root {
+    --primary: #20c997;
+    --secondary: #E0E0E0;
+    --light: #befff7;
+    --dark: #419197;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+html,body{
+    /*background-color: #befff7;*/
+    width: 100%;
+    height: 100%;
+}
+.body{
+    width: 80%;
+    margin-left: 20%;
+    padding:70px 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+form{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    align-items: center;
+}
+
+.form-input{
+    border: 1px solid black;
+    width: 50%;
+    height: 40px;
+    background-color: #befff7;
+    border-radius: 10px;
+}
+
+.form-btn{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius:100%;
+}
+
+.title-page{
+    width: 100%;
+    font-size: 24px;
+    color: #419197;
+    text-align: center;
+}
+
+.table{
+    margin-top: 20px;
+    width: 100%
+}
+
+.table thead{
+    background-color: #419197;
+}
+
+.table th, td{
+    padding: 10px 10px;
+}
+
+.table td a{
+    text-decoration: none;
+    color: red;
+}
+
+

@@ -1,0 +1,147 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 5, 2023, 11:04:22 PM
+    Author     : tuna
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --primary: #20c997;
+    --secondary: #E0E0E0;
+    --light: #befff7;
+    --dark: #419197;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+header {
+    position: fixed;
+    z-index:2;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary);
+}
+
+.header__cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 40px;
+}
+
+.header__cont-logo {
+    font-weight: 900;
+    color: #20c997;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.title{
+    text-decoration: none;
+}
+
+.title-vh{
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.title-express{
+    color: var(--teal);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.header__cont-user {
+    position: relative;
+    background-color: white;
+    height: auto;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.user-info {
+    top:30px;
+    padding-top: 20px; 
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    padding: 14px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: start;
+    
+}
+
+.user-info-item {
+    padding: 5px 0px 5px 20px;
+    cursor: pointer;
+    color: var(--primary);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.user-info-item:hover {
+    width: 100%;
+    font-weight: 800;
+    background-color: var(--secondary);
+    color: var(--dark);
+}
+
+
+/*.header__cont-nav a:hover{
+    background-color: white;
+    color: var(--secondary);
+    display: block;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0px 20px 0px 20px;
+}
+
+.header__cont-nav a:active{
+    background-color: white;
+    color: var(--secondary);
+    display: block;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0px 20px 0px 20px;
+}*/
+
+.user-info {
+    display: none;
+}
+
+.header__cont-user:hover .user-info{
+    display: flex;
+}

@@ -1,0 +1,171 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 5, 2023, 11:08:08 PM
+    Author     : tuna
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #00C6FF;
+  --secondary: #0059A8;
+  --light: #EAFCFF;
+  --dark: #002D5A;
+}
+
+footer {
+  width: 100%;
+}
+.new {
+  width: 100%;
+  background-color: var(--light);
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new__cont {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.new__cont-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-tile {
+  color: var(--secondary);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.title-desc {
+  color: var(--secondary);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.new__cont-form {
+  max-width: 800px;
+  width: 100%;
+  border-radius: 26px;
+  display: flex;
+  gap: 16px;
+}
+
+.form-input {
+  width: 80%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 25px;
+}
+
+.form-btn {
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 12px;
+}
+
+.footer {
+  width: 100%;
+  background-color: var(--light);
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__cont {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 80px;
+}
+
+.footer__cont-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.intro-logo {
+  color: #484848;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.intro-desc {
+  color: #9a9a9a;
+  font-size: 15px;
+  max-width: 382px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer__cont-info {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-item-tile {
+  color: #484848;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.info-item-desc {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.desc {
+  color: #484848;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/ACER/Desktop/TuProject/vh_express_demo/web/welcome_admin.jsp</file>
+            <file>file:/C:/Users/ACER/Desktop/TuProject/vh_express_demo/web/list_staff_driver.jsp</file>
+            <file>file:/C:/Users/ACER/Desktop/TuProject/vh_express_demo/web/list_carroute_member.jsp</file>
+            <file>file:/C:/Users/ACER/Desktop/TuProject/vh_express_demo/src/java/model/config/Config.java</file>
+            <file>file:/C:/Users/ACER/Desktop/TuProject/vh_express_demo/src/java/controller/EmailSender.java</file>
+            <file>file:/C:/Users/ACER/Desktop/TuProject/vh_express_demo/web/verifired.jsp</file>
+            <file>file:/C:/Users/ACER/Desktop/TuProject/vh_express_demo/web/ticket_member.jsp</file>
+            <file>file:/C:/Users/ACER/Desktop/TuProject/vh_express_demo/web/welcome_staff.jsp</file>
+            <file>file:/C:/Users/ACER/Desktop/TuProject/vh_express_demo/web/confirm_ticket.jsp</file>
+            <file>file:/C:/Users/ACER/Desktop/TuProject/vh_express_demo/web/payment.jsp</file>
+            <file>file:/C:/Users/ACER/Desktop/TuProject/vh_express_demo/src/java/controller/AjaxServlet.java</file>
+            <file>file:/C:/Users/ACER/Desktop/TuProject/vh_express_demo/src/java/controller/ForgotPassword.java</file>
+            <file>file:/C:/Users/ACER/Desktop/TuProject/vh_express_demo/src/java/controller/PaySuccessServlet.java</file>
+        </group>
+    </open-files>
+</project-private>

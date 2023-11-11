@@ -1,0 +1,5 @@
+git branch : check branch
+git checkout -b <ten nhanh> : tao nhanh, đổi nhánh
+git add .
+git commit -m "ten-commit"
+git push origin Anh-Tu

@@ -1,0 +1,54 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 4, 2023, 2:16:55 AM
+    Author     : tuna
+*/
+:root {
+    --primary: #20c997;
+    --secondary: #E0E0E0;
+    --light: #befff7;
+    --dark: #419197;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+html,body{
+    /*background-color: #befff7;*/
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar{
+    position: fixed;
+    z-index: 1;
+    width: 20%;
+    height: 100%;
+    background-color: #419197;
+    padding-top: 70px;
+}
+
+.items{
+    width: 100%;
+    background-color: white;
+}
+
+.items a{
+    display: block;
+    width:100%;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #20c997;
+    background-color: white;
+    border: 1px solid #419197;
+}
+
+.items a:hover {
+    background-color: #E0E0E0;
+}
+
+.items .active{
+    background-color: #befff7;
+}
